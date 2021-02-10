@@ -1,0 +1,16 @@
+{
+  "short_name": "GooseFinance",
+  "name": "GooseFinance",
+  "icons": [
+    {
+      "src": "./logo.png",
+      "sizes": "160x160",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "portrait",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
