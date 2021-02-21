@@ -63,10 +63,6 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     items: [
       {
-        label: 'Audit by Hacken',
-        href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
-      },
-      {
         label: "Github",
         href: "https://github.com/goosedefi/",
       },
@@ -79,7 +75,12 @@ const config: MenuEntry[] = [
         href: "https://goosefinance.medium.com/",
       },
     ],
-  }
+  },
+  {
+    label: 'Audit by Hacken',
+    icon: 'AuditIcon',
+    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
+  },
 ]
 
 export default config
