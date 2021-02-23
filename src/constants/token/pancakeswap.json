@@ -18,6 +18,13 @@
       "decimals": 18
     },
     {
+      "name": "AUTOv2",
+      "symbol": "AUTO",
+      "address": "0xa184088a740c695e156f91f5cc086a06bb78b827",
+      "chainId": 56,
+      "decimals": 18
+    },
+    {
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
