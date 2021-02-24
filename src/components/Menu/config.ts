@@ -81,6 +81,11 @@ const config: MenuEntry[] = [
     icon: 'AuditIcon',
     href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
   },
+  {
+    label: 'Audit by CertiK',
+    icon: 'AuditIcon',
+    href: 'https://certik.org/projects/goose-finance',
+  },
 ]
 
 export default config
