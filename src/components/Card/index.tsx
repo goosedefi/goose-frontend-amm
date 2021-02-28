@@ -4,17 +4,17 @@ import { Text } from '@pancakeswap-libs/uikit'
 
 const Card = styled.div<any>`
   width: 100%;
-  border-radius: 16px;
+  border-radius: 2px;
   padding: 1.25rem;
   padding: ${({ padding }) => padding};
-  border: ${({ border }) => border};
+  border: 3px solid ${({ theme }) => theme.colors.borderColor};
   border-radius: ${({ borderRadius }) => borderRadius};
 `
 export default Card
 
 export const LightCard = styled(Card)`
-  border: 1px solid ${({ theme }) => theme.colors.invertedContrast};
-  background-color: ${({ theme }) => theme.colors.invertedContrast};
+  border: 3px solid ${({ theme }) => theme.colors.borderColor};
+  background-color: ${({ theme }) => theme.colors.background};
 `
 
 export const GreyCard = styled(Card)`
@@ -40,7 +40,7 @@ export const PinkCard = styled(Card)`
 const BlueCardStyled = styled(Card)`
   background-color: ${({ theme }) => theme.colors.primaryDark};
   color: ${({ theme }) => theme.colors.primary};
-  border-radius: 12px;
+  border-radius: 2px;
   width: fit-content;
 `
 

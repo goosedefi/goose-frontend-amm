@@ -47,10 +47,10 @@ export const SearchInput = styled.input`
   background: none;
   border: none;
   outline: none;
-  border-radius: 20px;
+  border-radius: 2px;
   color: ${({ theme }) => theme.colors.text};
   border-style: solid;
-  border: 1px solid ${({ theme }) => theme.colors.tertiary};
+  border: 3px solid ${({ theme }) => theme.colors.borderColor};
   -webkit-appearance: none;
 
   font-size: 18px;
@@ -58,20 +58,15 @@ export const SearchInput = styled.input`
   ::placeholder {
     color: ${({ theme }) => theme.colors.textDisabled};
   }
-  transition: border 100ms;
-  :focus {
-    border: 1px solid ${({ theme }) => theme.colors.primary};
-    outline: none;
-  }
 `
 export const Separator = styled.div`
   width: 100%;
-  height: 1px;
-  background-color: ${({ theme }) => theme.colors.invertedContrast};
+  height: 3px;
+  background-color: ${({ theme }) => theme.colors.borderColor};
 `
 
 export const SeparatorDark = styled.div`
   width: 100%;
-  height: 1px;
-  background-color: ${({ theme }) => theme.colors.tertiary};
+  height: 3px;
+  background-color: ${({ theme }) => theme.colors.borderColor};
 `

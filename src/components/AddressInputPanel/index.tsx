@@ -13,8 +13,9 @@ const InputPanel = styled.div`
   display: flex;
   flex-flow: column nowrap;
   position: relative;
-  border-radius: 1.25rem;
-  background-color: ${({ theme }) => theme.colors.invertedContrast};
+  border-radius: 2px;
+  border: 3px solid ${({ theme }) => theme.colors.borderColor};
+  background-color: ${({ theme }) => theme.colors.background};
   z-index: 1;
   width: 100%;
 `
@@ -24,10 +25,10 @@ const ContainerRow = styled.div<{ error: boolean }>`
   justify-content: center;
   align-items: center;
   border-radius: 1.25rem;
-  border: 1px solid ${({ error, theme }) => (error ? theme.colors.failure : theme.colors.invertedContrast)};
+  border: 3px solid ${({ error, theme }) => (error ? theme.colors.failure : theme.colors.borderColor)};
   transition: border-color 300ms ${({ error }) => (error ? 'step-end' : 'step-start')},
     color 500ms ${({ error }) => (error ? 'step-end' : 'step-start')};
-  background-color: ${({ theme }) => theme.colors.invertedContrast};
+  background-color: ${({ theme }) => theme.colors.background};
 `
 
 const InputContainer = styled.div`
