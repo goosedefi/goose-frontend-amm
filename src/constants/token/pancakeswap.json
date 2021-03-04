@@ -11,6 +11,14 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "RockSwap Token",
+      "symbol": "ROCK",
+      "address": "0x5f26be59d28e0b3a9c58e242a58acc05e000f4ad",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/ROCK.png"
+    },
+    {
       "name": "Goose Golden Egg",
       "symbol": "EGG",
       "address": "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6",
