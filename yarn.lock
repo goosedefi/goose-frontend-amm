@@ -1984,7 +1984,7 @@
 
 "@pancakeswap-libs/uikit@https://github.com/rockswapfinance/rockswap-uikit.git":
   version "0.10.2"
-  resolved "https://github.com/rockswapfinance/rockswap-uikit.git#b63f68f006bd2f1a37c3c78be7ef92d9e0e2f43e"
+  resolved "https://github.com/rockswapfinance/rockswap-uikit.git#622c6e073ff8bfd5fad30f66b2f038ef1f95f44f"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
