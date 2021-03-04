@@ -1,15 +1,15 @@
 {
-  "short_name": "GooseFinance",
-  "name": "GooseFinance",
+  "short_name": "RockSwap Finance",
+  "name": "RockSwap Finance",
+  "description": "Your go-to strongest defi yield farm on the Binance Smart Chain.",
   "icons": [
     {
-      "src": "./logo.png",
-      "sizes": "160x160",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "src": "logo.svg",
+      "type": "image/svg",
+      "sizes": "256x256"
     }
   ],
-  "orientation": "portrait",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
