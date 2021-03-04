@@ -21,16 +21,6 @@ window.addEventListener('error', () => {
 
 ReactDOM.render(
   <StrictMode>
-    <p>
-      soon&trade;
-    </p>
-  </StrictMode>,
-  document.getElementById('root')
-)
-
-/*
-ReactDOM.render(
-  <StrictMode>
     <Providers>
       <>
         <ListsUpdater />
@@ -45,4 +35,3 @@ ReactDOM.render(
   </StrictMode>,
   document.getElementById('root')
 )
-*/
