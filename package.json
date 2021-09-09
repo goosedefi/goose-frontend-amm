@@ -83,6 +83,7 @@
   },
   "scripts": {
     "start": "CHOKIDAR_USEPOLLING=true react-scripts start",
+    "start:dev": "PORT=3000 CHOKIDAR_USEPOLLING=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
